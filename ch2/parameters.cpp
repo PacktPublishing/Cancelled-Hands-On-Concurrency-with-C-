@@ -4,6 +4,7 @@
 #include <vector>
 
 std::vector<std::string> greetings {"Hola", "Gutentag", "Bonure", "Konnichiwa"};
+std::vector<std::string> worlds {"Mundo", "Welt", "Monde", "Sekai" };
 
 void hello( std::vector<std::string> greet, std::string var) {
     for (auto g : greet) {
