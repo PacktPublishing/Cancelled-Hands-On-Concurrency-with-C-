@@ -5,7 +5,7 @@
 
 void orderCakeTask( std::string flavor ) {
   // std::ostringstream r;
-  std::cout << "Ordered a " << flavor << " Cake!" << std::endl;
+  std::cout << "Friend ordered a " << flavor << " Cake!" << std::endl;
   // std::cout << r.str( );
 }
 
