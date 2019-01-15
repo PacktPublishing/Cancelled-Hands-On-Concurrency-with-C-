@@ -2,7 +2,6 @@
 #include <sstream>
 #include <string>
 #include <thread>
-#include <unistd.h>
 #include <vector>
 
 void orderCakeTask( std::string flavor ) {
