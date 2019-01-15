@@ -13,7 +13,8 @@ int main( ) {
   std::vector< std::thread > threads;
 
   for ( int i = 0; i < 5; ++i ) {
-    threads.push_back( std::thread( concurrentThread ) );
+    // threads.push_back( std::thread( concurrentThread ) );
+    threads.emplace_back( concurrentThread );
   }
 
   for ( auto& thread : threads ) {
