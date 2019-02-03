@@ -1,4 +1,4 @@
-// shopping-parameters.cpp
+// shopping-parameters-no-thread.cpp
 #include <iostream>
 #include <string>
 #include <thread>
