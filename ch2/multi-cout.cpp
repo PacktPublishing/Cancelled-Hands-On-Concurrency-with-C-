@@ -1,13 +1,10 @@
-// multi-sstream.cpp
-#include <iostream>
-#include <sstream>
+// multi-cout.cpp
 #include <thread>
+#include <iostream>
 #include <vector>
 
 void concurrentThread( ) {
-	std::ostringstream r;
-	r << "Hello concurrent thread: " << std::this_thread::get_id( ) << std::endl;
-	std::cout << r.str( );
+	std::cout << "Hello concurrent thread: " << std::this_thread::get_id( ) << std::endl;
 }
 
 int main( ) {

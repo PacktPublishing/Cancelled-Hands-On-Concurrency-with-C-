@@ -6,7 +6,7 @@
 void orderCakeTask( std::string flavor ) {
 	std::cout << "Friend ordered a " << flavor << " Cake!" << std::endl;
 }
-
+// shopping-parameters-no-thread.cpp
 int main( ) {
 	// std::thread friend1( orderCakeTask, "Chocolate" );
 	// friend1.detach( );
